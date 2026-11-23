@@ -17,10 +17,10 @@ public class exercici01classe {
         }
     static void demanarNotes(ArrayList<Float> notes) {
         System.out.println("Introdueix les notes (escriu 0 per acabar).");
-        float nota = 0;
+        float nota;
 
         do {
-
+            nota = llegirNota("Nota: ");
         } while (nota != 0);
     }
 
