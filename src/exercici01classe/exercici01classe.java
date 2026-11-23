@@ -11,6 +11,9 @@ public class exercici01classe {
 
         ArrayList<Float> notesAlumnes = new ArrayList<>();
 
+        demanarNotes(notesAlumnes);
+        mostrarNotes(notesAlumnes);
+
         }
     static void demanarNotes(ArrayList<Float> notes) {
 
