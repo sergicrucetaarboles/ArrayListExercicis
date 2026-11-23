@@ -7,4 +7,7 @@ public class exercici01classe {
 
     static final Scanner teclat = new Scanner(System.in);
 
+    public static void main(String[] args) {
+
+    }
 }
