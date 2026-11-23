@@ -33,7 +33,7 @@ public class exercici01classe {
             return;
         }
     }
-
+    System.out.println("--- Notes introduïdes (" + notes.size() + ") ---");
 
     }
 }
