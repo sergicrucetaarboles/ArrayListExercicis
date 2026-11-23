@@ -1,3 +1,5 @@
+package exercici01classe;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
