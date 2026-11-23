@@ -9,5 +9,7 @@ public class exercici01classe {
 
     public static void main(String[] args) {
 
+        ArrayList<Float> notesAlumnes = new ArrayList<>();
+
     }
 }
