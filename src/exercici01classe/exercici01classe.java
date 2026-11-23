@@ -1,3 +1,5 @@
+package exercici01classe;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -38,7 +40,7 @@ public class exercici01classe {
         }
     }
 
-    // abans de llegir si el que ha escrit l'usuari és realment un float.
+    // Comprova que l'entrada és numèrica i que la nota és vàlida.
     static float llegirNota(String missatge) {
         while (true) {
             System.out.print(missatge);
@@ -54,6 +56,7 @@ public class exercici01classe {
             } else {
                 teclat.nextLine();              // descarta el text no vàlid
                 System.out.println("Error: has d'escriure un número (ex. 7,5).");
+            }
         }
     }
 }
