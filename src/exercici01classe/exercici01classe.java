@@ -11,5 +11,10 @@ public class exercici01classe {
 
         ArrayList<Float> notesAlumnes = new ArrayList<>();
 
+        }
+    static void demanarNotes(ArrayList<Float> notes) {
+
+    }
+
     }
 }
