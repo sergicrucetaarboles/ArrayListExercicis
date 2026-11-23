@@ -35,5 +35,8 @@ public class exercici01classe {
     }
     System.out.println("--- Notes introduïdes (" + notes.size() + ") ---");
 
+    for (int i = 0; i < notes.size(); i++) {
+
+    }
     }
 }
