@@ -16,5 +16,8 @@ public class exercici01classe {
 
     }
 
+    static void mostrarNotes(ArrayList<Float> notes) {
+
+    }
     }
 }
