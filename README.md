@@ -1,0 +1,22 @@
+# Exercici 1
+Crea una aplicació amb java usant **programació modular** que permeti a l'usuari introduïr les notes de l'examen de M04-UF1. **Una nota per cada alumne**
+Usarem vectors dinàmics que ens permetin la flexibilitat d'introduïr el nombre de notes que volguem.
+Usarem un ArrayList de tipus Float. Seva declaració és:
+```java
+ArrayList<Float> notesAlumnes = new ArrayList<>();
+```
+Per saber la longitud en cada moment de l'ArrayList, usarem **notesAlumnes.size()**
+L'aplicació ha de tenir un menú principal amb control d'errors (que podeu copiar d'algun altre projecte) i ha de permetre les següents opcions:
+1. Introduïr nota al final del llistat **notesAlumnes.add()**
+2. Consultar la nota d'un índex **notesAlumnes.get()**
+3. Eliminar una nota en un índex **notesAlumnes.remove()**
+4. Modificar la nota en un índex **notesAlumnes.set()**
+5. Sortir
+
+**Extra** : Crear un altre ArrayList de tipus <String> que permeti guardar el nom dels alumnes i així poder saber a qui correspon cada nota.
+
+# Exercici 1 Classe 
+
+1. Poder afegir notes per teclat
+2. Quan introdueixi 0 paren
+3. Printem totes les notes
