@@ -16,11 +16,13 @@ public class exercici01classe {
 
         }
     static void demanarNotes(ArrayList<Float> notes) {
-
+        System.out.println("Introdueix les notes (escriu 0 per acabar).");
     }
 
     static void mostrarNotes(ArrayList<Float> notes) {
 
     }
+
+
     }
 }
