@@ -28,7 +28,10 @@ public class exercici01classe {
     }
 
     static void mostrarNotes(ArrayList<Float> notes) {
-
+        if (notes.isEmpty()) {
+            System.out.println("No s'ha introduït cap nota.");
+            return;
+        }
     }
 
 
