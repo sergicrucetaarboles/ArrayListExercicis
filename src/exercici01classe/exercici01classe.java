@@ -44,7 +44,7 @@ public class exercici01classe {
             }
         static float llegirNota(String missatge) {
 
-
+            System.out.print(missatge);
         }
     }
 }
