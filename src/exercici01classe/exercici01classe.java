@@ -46,7 +46,8 @@ public class exercici01classe {
 
             System.out.print(missatge);
             if (teclat.hasNextFloat()) {
-
+                float nota = teclat.nextFloat();
+                teclat.nextLine();
             } else {
 
             }
