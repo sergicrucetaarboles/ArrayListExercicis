@@ -22,6 +22,9 @@ public class exercici01classe {
         do {
             nota = llegirNota("Nota: ");
         } while (nota != 0);
+        if (nota != 0) {
+            notes.add(nota);
+        }
     }
 
     static void mostrarNotes(ArrayList<Float> notes) {
