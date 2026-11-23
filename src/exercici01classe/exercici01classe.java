@@ -51,8 +51,9 @@ public class exercici01classe {
                     return nota;
                 }
                 System.out.println("Error: la nota ha d'estar entre 0 i 10.");
-
-            }
+            } else {
+                teclat.nextLine();              // descarta el text no vàlid
+                System.out.println("Error: has d'escriure un número (ex. 7,5).");
         }
     }
 }
