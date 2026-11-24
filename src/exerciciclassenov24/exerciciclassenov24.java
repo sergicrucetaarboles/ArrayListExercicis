@@ -132,7 +132,8 @@ public class exerciciclassenov24 {
 
             } else if (opcio == 0) {
                 System.out.println("Programa finalitzat. Fins aviat!");
-            }
+            }  else {
+            System.out.println("Error: l'opció no existeix. Tria un número del 0 al 4.");
         }
     }
 }
