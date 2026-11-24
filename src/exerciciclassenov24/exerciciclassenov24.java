@@ -51,5 +51,28 @@ public class exerciciclassenov24 {
                 }
             }
         }
+        else if (opcio == 2) {
+            if (productes.isEmpty()) {
+                System.out.println("No hi ha cap producte a la llista.");
+            } else {
+                int id = 0;
+                boolean idValid = false;
+                while (!idValid) {
+                    System.out.print("Introdueix l'id (1-" + productes.size() + "): ");
+                    if (teclat.hasNextInt()) {
+                        id = teclat.nextInt();
+                        teclat.nextLine();
+                        if (id >= 1 && id <= productes.size()) {
+                            idValid = true;
+                        } else {
+                            System.out.println("Error: l'id " + id + " no existeix.");
+                        }
+                    } else {
+                        System.out.println("Error: has d'introduir un número enter.");
+                        teclat.nextLine();
+                    }
+                }
+                System.out.println("Producte " + id + ": " + productes.get(id - 1));
+            }
     }
 }
