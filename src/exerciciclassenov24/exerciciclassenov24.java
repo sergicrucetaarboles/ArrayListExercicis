@@ -42,5 +42,14 @@ public class exerciciclassenov24 {
             teclat.nextLine();
         }
 
+        if (opcio == 1) {
+            if (productes.isEmpty()) {
+                System.out.println("No hi ha cap producte a la llista.");
+            } else {
+                for (int i = 0; i < productes.size(); i++) {
+                    System.out.println((i + 1) + ". " + productes.get(i));
+                }
+            }
+        }
     }
 }
