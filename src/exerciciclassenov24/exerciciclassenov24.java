@@ -22,7 +22,25 @@ public class exerciciclassenov24 {
          */
 
         int opcio = -1;
+        while (opcio != 0) {
+            System.out.println();
+            System.out.println("===== GESTIÓ DE PRODUCTES =====");
+            System.out.println("1. Veure tots els productes");
+            System.out.println("2. Veure un sol producte");
+            System.out.println("3. Canviar el nom d'un producte");
+            System.out.println("4. Eliminar un producte");
+            System.out.println("0. Sortir");
+            System.out.print("Tria una opció: ");
 
+            // Control d'errors: si no és un número enter, es descarta i es torna al menú
+            if (!teclat.hasNextInt()) {
+                System.out.println("Error: has d'introduir un número enter.");
+                teclat.nextLine();
+                continue;
+            }
+            opcio = teclat.nextInt();
+            teclat.nextLine();
+        }
 
     }
 }
