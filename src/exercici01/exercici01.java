@@ -112,11 +112,40 @@ public class exercici01 {
                                     + " | Nota: "
                                     + notesAlumnes.get(index));
                         }
-                    // opcio 3 - eliminar remove
+
+                        // opcio 3 - eliminar remove
                         else if (opcio == 3) {
                             String nomEliminat = nomsAlumnes.remove(index);
                             float notaEliminada = notesAlumnes.remove(index);
                         }
+
+                        //opcio 4 - modificar set
+                        else {
+                            System.out.println("Nota actual de " + nomsAlumnes.get(index) + ": " + notesAlumnes.get(index));
+
+                            float novaNota = 0;
+                            boolean novaNotaValida = false;
+                            while (!novaNotaValida) {
+                                System.out.print("Nova nota (0-10): ");
+                                if (!teclat.hasNextFloat()) {
+                                    teclat.nextLine();
+                                    System.out.println("Error: has d'introduir un número.");
+                                } else {
+                                    novaNota = teclat.nextFloat();
+                                    teclat.nextLine();
+                                    if (novaNota >= 0 && novaNota <= 10) {
+                                        novaNotaValida = true;
+                                    } else {
+                                        System.out.println("Error: la nota ha d'estar entre 0 i 10.");
+                                    }
+                                }
+                            }
+
+                            notesAlumnes.set(index, novaNota);
+                            System.out.println("Nota modificada correctament.");
+                        }
+                    }
+                }
                     }
                 }
             }
