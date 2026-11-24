@@ -113,7 +113,10 @@ public class exercici01 {
                                     + notesAlumnes.get(index));
                         }
                     // opcio 3 - eliminar remove
-
+                        else if (opcio == 3) {
+                            String nomEliminat = nomsAlumnes.remove(index);
+                            float notaEliminada = notesAlumnes.remove(index);
+                        }
                     }
                 }
             }
