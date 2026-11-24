@@ -146,7 +146,9 @@ public class exercici01 {
                         }
                     }
                 }
-                    }
+                // opcio 5- sortir
+                else if (opcio == 5) {
+                    System.out.println("Fins aviat!");
                 }
             }
         }
