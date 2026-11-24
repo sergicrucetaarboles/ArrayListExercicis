@@ -12,6 +12,10 @@ public class exercici01 {
 
         int opcio = 0;
 
+        // Bucle del menú: es repeteix fins que l'usuari escull 5 (Sortir)
+        while (opcio != 5) {
+
+        }
 
     }
 }
