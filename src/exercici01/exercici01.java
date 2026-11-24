@@ -61,6 +61,9 @@ public class exercici01 {
                         }
                     }
 
+                    // Afegim el nom i la nota a les llistes
+                    nomsAlumnes.add(nom);
+                    notesAlumnes.add(nota);
 
                 }
 
