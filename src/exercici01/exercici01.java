@@ -35,6 +35,15 @@ public class exercici01 {
             // introduir nota - opció 1
             if (opcio == 1) {
 
+                // Demanem el nom (no pot estar buit)
+                System.out.print("Nom de l'alumne: ");
+                String nom = teclat.nextLine().trim();
+                while (nom.isEmpty()) {
+                    System.out.println("Error: el nom no pot estar buit.");
+                    nom = teclat.nextLine().trim();
+                }
+
+
             }
 
 
