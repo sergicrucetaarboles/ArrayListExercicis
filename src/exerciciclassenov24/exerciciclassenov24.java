@@ -20,5 +20,7 @@ public class exerciciclassenov24 {
          * 3. Canvia nom d'un producte (l'usuari tria per id i dona nou nom)
          * 4. Eliminem un producte.
          */
+
+        int opcio;
     }
 }
