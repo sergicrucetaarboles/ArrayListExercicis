@@ -23,4 +23,13 @@ public class exercici01 {
         } while (opcio != SORTIR);
 
     }
+    public static void mostrarMenu() {
+        System.out.println();
+        System.out.println("=== NOTES DE L'EXAMEN M04-UF1 ===");
+        System.out.println("1. Introduir nota");
+        System.out.println("2. Consultar la nota d'un índex");
+        System.out.println("3. Eliminar una nota");
+        System.out.println("4. Modificar una nota");
+        System.out.println("5. Sortir");
+    }
 }
