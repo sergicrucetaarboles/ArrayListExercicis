@@ -77,9 +77,44 @@ public class exercici01 {
 
                     if (notesAlumnes.size() == 0) {
                         System.out.println("No hi ha cap nota registrada.");
+                    } else {
+
+                    }
+                    for (int i = 0; i < notesAlumnes.size(); i++) {
+                        System.out.println("Índex " + i + ": "
+                                + nomsAlumnes.get(i)
+                                + " -> "
+                                + notesAlumnes.get(i));
                     }
 
+                    // Demanem l'índex (entre 0 i size() - 1)
+                    int index = 0;
+                    boolean indexValid = false;
+                    while (!indexValid) {
+                        System.out.print("Índex: ");
+                        if (!teclat.hasNextInt()) {
+                            teclat.nextLine();
+                            System.out.println("Error: has d'introduir un número enter.");
+                        } else {
+                            index = teclat.nextInt();
+                            teclat.nextLine();
+                            if (index >= 0 && index < notesAlumnes.size()) {
+                                indexValid = true;
+                            } else {
+                                System.out.println("Error: l'índex ha d'estar entre 0 i " + (notesAlumnes.size() - 1) + ".");
+                            }
+                        }
 
+                        // opcio 2 - consultar  get
+                        if (opcio == 2) {
+                            System.out.println("Alumne: "
+                                    + nomsAlumnes.get(index)
+                                    + " | Nota: "
+                                    + notesAlumnes.get(index));
+                        }
+                    // opcio 3 - eliminar remove
+
+                    }
                 }
             }
         }
