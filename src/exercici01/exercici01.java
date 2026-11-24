@@ -11,7 +11,10 @@ public class exercici01 {
 
     public static void main(String[] args) {
 
+        Scanner teclat = new Scanner(System.in);
 
+        ArrayList<Float> notesAlumnes = new ArrayList<>();
+        ArrayList<String> nomsAlumnes = new ArrayList<>();
 
     }
 }
