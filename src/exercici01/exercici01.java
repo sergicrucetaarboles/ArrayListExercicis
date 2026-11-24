@@ -22,6 +22,15 @@ public class exercici01 {
             System.out.println("3. Eliminar una nota");
             System.out.println("4. Modificar una nota");
             System.out.println("5. Sortir");
+
+            // Control d'errors: comprovem que sigui un número enter
+            if (!teclat.hasNextInt()) { //hasNextInt() retorna true si el següent token és un int, false en cas contrari
+                teclat.nextLine();
+                System.out.println("Error: has d'introduir un número enter.");
+            } else {
+                opcio = teclat.nextInt();
+                teclat.nextLine();
+            }
         }
 
     }
