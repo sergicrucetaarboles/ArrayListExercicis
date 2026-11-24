@@ -21,11 +21,7 @@ public class exercici01 {
         do {
             mostrarMenu();
 
-            opcio = llegirEnterEnRang(
-                    teclat,
-                    "Escull una opció (1-5): ",
-                    AFEGIR,
-                    SORTIR);
+            opcio = llegirEnterEnRang(teclat, "Escull una opció (1-5): ", AFEGIR, SORTIR);
 
         } while (opcio != SORTIR);
 
@@ -39,4 +35,5 @@ public class exercici01 {
         System.out.println("4. Modificar una nota");
         System.out.println("5. Sortir");
     }
+
 }
