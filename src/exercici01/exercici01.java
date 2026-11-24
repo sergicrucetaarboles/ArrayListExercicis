@@ -26,6 +26,7 @@ public class exercici01 {
             switch (opcio) {
 
                 case AFEGIR:
+                    afegirNota(teclat, nomsAlumnes, notesAlumnes);
                     break;
 
                 case CONSULTAR:
