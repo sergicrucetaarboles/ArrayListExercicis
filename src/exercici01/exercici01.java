@@ -75,6 +75,11 @@ public class exercici01 {
                 // ---------- OPCIONS 2, 3 i 4: necessiten un índex ----------
                 else if (opcio >= 2 && opcio <= 4) {
 
+                    if (notesAlumnes.size() == 0) {
+                        System.out.println("No hi ha cap nota registrada.");
+                    }
+
+
                 }
             }
         }
