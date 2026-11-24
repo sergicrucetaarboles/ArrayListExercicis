@@ -23,6 +23,24 @@ public class exercici01 {
 
             opcio = llegirEnterEnRang(teclat, "Escull una opció (1-5): ", AFEGIR, SORTIR);
 
+            switch (opcio) {
+
+                case AFEGIR:
+                    break;
+
+                case CONSULTAR:
+                    break;
+
+                case ELIMINAR:
+                    break;
+
+                case MODIFICAR:
+                    break;
+
+                case SORTIR:
+                    System.out.println("Fins aviat!");
+                    break;
+            }
         } while (opcio != SORTIR);
 
     }
