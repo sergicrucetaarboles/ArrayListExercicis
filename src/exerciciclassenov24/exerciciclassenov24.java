@@ -21,10 +21,8 @@ public class exerciciclassenov24 {
          * 4. Eliminem un producte.
          */
 
-        int opcio=0;
+        int opcio = -1;
 
-        do {
 
-        } while (opcio != 0);
     }
 }
