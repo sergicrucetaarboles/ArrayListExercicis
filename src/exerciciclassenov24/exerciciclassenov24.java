@@ -74,5 +74,38 @@ public class exerciciclassenov24 {
                 }
                 System.out.println("Producte " + id + ": " + productes.get(id - 1));
             }
+        } else if (opcio == 3) {
+            if (productes.isEmpty()) {
+                System.out.println("No hi ha cap producte a la llista.");
+            } else {
+                int id = 0;
+                boolean idValid = false;
+                while (!idValid) {
+                    System.out.print("Introdueix l'id (1-" + productes.size() + "): ");
+                    if (teclat.hasNextInt()) {
+                        id = teclat.nextInt();
+                        teclat.nextLine();
+                        if (id >= 1 && id <= productes.size()) {
+                            idValid = true;
+                        } else {
+                            System.out.println("Error: l'id " + id + " no existeix.");
+                        }
+                    } else {
+                        System.out.println("Error: has d'introduir un número enter.");
+                        teclat.nextLine();
+                    }
+                }
+                String nouNom = "";
+                while (nouNom.isEmpty()) {
+                    System.out.print("Introdueix el nou nom: ");
+                    nouNom = teclat.nextLine().trim();
+                    if (nouNom.isEmpty()) {
+                        System.out.println("Error: el nom no pot estar buit.");
+                    }
+                }
+                productes.set(id - 1, nouNom);
+                System.out.println("Nom canviat correctament.");
+            }
+        }
     }
 }
