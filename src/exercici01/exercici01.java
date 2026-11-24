@@ -47,9 +47,24 @@ public class exercici01 {
                 float nota = 0;
                 boolean notaValida = false;
                 while (!notaValida) {
+                    System.out.print("Nota de " + nom + " (0-10): ");
+                    if (!teclat.hasNextFloat()) {
+                        teclat.nextLine();
+                        System.out.println("Error: has d'introduir un número.");
+                    } else {
+                        nota = teclat.nextFloat();
+                        teclat.nextLine();
+                        if (nota >= 0 && nota <= 10) {
+                            notaValida = true;
+                        } else {
+                            System.out.println("Error: la nota ha d'estar entre 0 i 10.");
+                        }
+                    }
 
 
                 }
+
+
             }
 
 
