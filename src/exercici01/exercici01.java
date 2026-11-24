@@ -16,5 +16,11 @@ public class exercici01 {
         ArrayList<Float> notesAlumnes = new ArrayList<>();
         ArrayList<String> nomsAlumnes = new ArrayList<>();
 
+        int opcio;
+
+        do {
+
+        } while (opcio != SORTIR);
+
     }
 }
