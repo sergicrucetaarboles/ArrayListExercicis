@@ -9,5 +9,9 @@ public class exercici01 {
         // Llista de notes (Float) i llista de noms (extra): van en paral·lel
         ArrayList<Float> notesAlumnes = new ArrayList<>();
         ArrayList<String> nomsAlumnes = new ArrayList<>();
+
+        int opcio = 0;
+
+
     }
 }
