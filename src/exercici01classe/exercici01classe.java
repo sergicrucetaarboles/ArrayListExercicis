@@ -16,7 +16,7 @@ public class exercici01classe {
 
     // Punts 1 i 2: llegeix notes fins que s'escriu 0
     static void demanarNotes(ArrayList<Float> notes) {
-        System.out.println("Introdueix les notes (escriu 0 per acabar).");
+        System.out.println("Introdueix les notes ( tancar - 0 ).");
         float nota;
 
         do {

@@ -1,7 +1,7 @@
-package exercici01;
+import java.util.ArrayList;
+import java.util.Scanner;
 
-public class exercici01 {
-    public static void main(String[] args) {
+public class exercici01
+{
 
-    }
 }
