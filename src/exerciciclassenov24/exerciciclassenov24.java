@@ -129,8 +129,10 @@ public class exerciciclassenov24 {
                     }
                 }
                 System.out.println("Producte eliminat: " + productes.remove(id - 1));
-            }
 
+            } else if (opcio == 0) {
+                System.out.println("Programa finalitzat. Fins aviat!");
+            }
         }
     }
 }
