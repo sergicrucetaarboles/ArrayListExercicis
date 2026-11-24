@@ -19,6 +19,13 @@ public class exercici01 {
         int opcio;
 
         do {
+            mostrarMenu();
+
+            opcio = llegirEnterEnRang(
+                    teclat,
+                    "Escull una opció (1-5): ",
+                    AFEGIR,
+                    SORTIR);
 
         } while (opcio != SORTIR);
 
