@@ -31,6 +31,15 @@ public class exercici01 {
                 opcio = teclat.nextInt();
                 teclat.nextLine();
             }
+
+            // introduir nota - opció 1
+            if (opcio == 1) {
+
+            }
+
+
+
+
         }
 
     }
