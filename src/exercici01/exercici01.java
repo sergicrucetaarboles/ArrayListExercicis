@@ -158,5 +158,6 @@ public class exercici01 {
                 }
             }
         }
+        teclat.close();
     }
 }
