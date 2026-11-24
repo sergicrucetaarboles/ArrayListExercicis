@@ -43,7 +43,13 @@ public class exercici01 {
                     nom = teclat.nextLine().trim();
                 }
 
+                // Demanem la nota (ha de ser un float entre 0 i 10)
+                float nota = 0;
+                boolean notaValida = false;
+                while (!notaValida) {
 
+
+                }
             }
 
 
