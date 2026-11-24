@@ -146,9 +146,15 @@ public class exercici01 {
                         }
                     }
                 }
+
                 // opcio 5- sortir
                 else if (opcio == 5) {
                     System.out.println("Fins aviat!");
+                }
+
+                //altres numeros
+                else {
+                    System.out.println("Error: l'opció ha d'estar entre 1 i 5.");
                 }
             }
         }
