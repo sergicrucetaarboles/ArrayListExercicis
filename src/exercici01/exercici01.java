@@ -54,4 +54,16 @@ public class exercici01 {
         System.out.println("5. Sortir");
     }
 
+    public static void afegirNota(
+            Scanner teclat,
+            ArrayList<String> noms,
+            ArrayList<Float> notes) {
+
+        String nom = llegirNom(teclat, "Nom de l'alumne: ");
+        float nota = llegirNota(teclat, "Nota de " + nom + " (0-10): ");
+
+        noms.add(nom);
+        notes.add(nota);
+
+        System.out.println( "Nota afegida a l'índex "  + (notes.size() - 1)  + ".");
 }
