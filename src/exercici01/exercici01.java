@@ -9,4 +9,9 @@ public class exercici01 {
     static final int MODIFICAR = 4;
     static final int SORTIR = 5;
 
+    public static void main(String[] args) {
+
+
+
+    }
 }
